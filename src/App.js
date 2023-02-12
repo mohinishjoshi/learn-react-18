@@ -1,3 +1,4 @@
+import CardList from 'components/card-list/CardList';
 import MultiButtonWrapper from 'components/multi-button-wrapper/MultiButtonWrapper';
 import NestedButtonClickWrapper from 'components/nested-button-cliick-wrapper/NestedButtonClickWrapper';
 import React from 'react';
@@ -12,7 +13,7 @@ function App() {
         <ClickCounter></ClickCounter>
       </div>
 
-      <hr></hr>
+      <hr />
 
       <div>
         <h1>Ch 2 Nested Click Counter Wrapper Component</h1>
@@ -20,11 +21,18 @@ function App() {
         <NestedButtonClickWrapper></NestedButtonClickWrapper>
       </div>
 
-      <hr></hr>
+      <hr />
 
       <div>
-        <h1>Multi Button Wrapper Component</h1>
+        <h1> Ch 3 Multi Button Wrapper Component</h1>
         <MultiButtonWrapper></MultiButtonWrapper>
+      </div>
+
+      <hr />
+
+      <div>
+        <h1> Ch 4 Github Cards Component</h1>
+        <CardList></CardList>
       </div>
     </>
   );
